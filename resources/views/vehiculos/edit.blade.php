@@ -99,6 +99,17 @@
             </select>
         </div>
 
+        <div class="mb-3">
+            <label for="vin">Modelo *</label>
+            <input 
+                type="text"
+                class="form-control"
+                id="vin"
+                name="vin"
+                value="{{ $vehiculo->vin }}"
+            >
+        </div>
+
         <button type="submit" class="btn btn-sm btn-success">
             Guardar
         </button>

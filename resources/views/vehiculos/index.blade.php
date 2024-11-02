@@ -28,7 +28,9 @@
                 <td>Modelo</td>
                 <td>Color</td>
                 <td>Propietario</td>
+                <td>VIN</td>
                 <td>Estado</td>
+               
                 <td></td>
             </tr>
         </thead>
@@ -49,6 +51,9 @@
                     <td>{{ $vehiculo->color_vehiculo }}</td>
                     <td>{{ $vehiculo->propietario_vehiculo }}</td>
                     <td>
+                        {{ $vehiculo->vin }}
+                    </td>
+                    <td>
                         {{ $vehiculo->estado_vehiculo ? 'Activo' : 'Inactivo' }}
                     </td>
                     <td>
@@ -62,7 +67,7 @@
                 </tr>
             @empty
                 <tr>
-                    <td colspan="8" class="text-center">Sin resultados</td>
+                    <td colspan="9" class="text-center">Sin resultados</td>
                 </tr>
             @endforelse
         </tbody>

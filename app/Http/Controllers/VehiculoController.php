@@ -39,6 +39,7 @@ class VehiculoController extends Controller
                 'modelo_vehiculo' => 'required',
                 'color_vehiculo' => 'required',
                 'propietario_vehiculo' => 'required',
+                'vin' => 'required',
             ]);
 
             Vehiculo::create([
@@ -47,6 +48,7 @@ class VehiculoController extends Controller
                 'modelo_vehiculo' => $request->modelo_vehiculo,
                 'color_vehiculo' => $request->color_vehiculo,
                 'propietario_vehiculo' => $request->propietario_vehiculo,
+                'vin' => $request->vin,
             ]);
 
             session()->flash('success', 'Vehiculo creada correctamente');

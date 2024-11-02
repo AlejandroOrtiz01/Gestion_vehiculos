@@ -16,6 +16,7 @@ class Vehiculo extends Model
         'color_vehiculo',
         'propietario_vehiculo',
         'estado_vehiculo',
+        'vin',                    /* requerido para el examen */
     ];
 
     /**
