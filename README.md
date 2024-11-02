@@ -4,7 +4,7 @@
 Este proyecto es un sistema integral de gestión de vehículos desarrollado en PHP con Laravel, diseñado para registrar vehículos, asociar marcas y planificar sus mantenimientos de forma organizada. Utiliza la plantilla AdminLTH para una interfaz moderna, y se basa en una arquitectura MVC para mantener una separación clara entre el frontend y el backend, 
 optimizando la experiencia de usuario y facilitando el mantenimiento y escalabilidad del sistema.
 
-con mi base de datos esta el script en la carpeta database, alli se puede visualizar el script la cual es una base de datos relacional.
+el script de mi  base de datos esta  en la carpeta database, alli se puede visualizar el script la cual es una base de datos relacional.
 
 
 ## Instalación
@@ -21,7 +21,7 @@ Para instalar y configurar el proyecto, sigue los siguientes pasos:
    
    https://github.com/AlejandroOrtiz01/Gestion_vehiculos
 
-3. **Instala las dependencias del proyecto:**
+3. **Instala las dependenciass del proyecto:**
    ```bash
    composer install
    
