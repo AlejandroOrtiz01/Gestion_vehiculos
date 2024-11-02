@@ -17,7 +17,9 @@ Para instalar y configurar el proyecto, sigue los siguientes pasos:
 
 2. **Navega al directorio del proyecto:**
    ```bash
-   cd Gestion_vehiculos
+   cd Gestion_vehiculos 
+   
+   https://github.com/AlejandroOrtiz01/Gestion_vehiculos
 
 3. **Instala las dependencias del proyecto:**
    ```bash
